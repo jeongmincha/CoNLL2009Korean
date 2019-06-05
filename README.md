@@ -21,8 +21,8 @@ Like Lee's data, our train data size is 4,096 sentences, and our evaluation data
 2. Download our train/evaluation data (`srl.train.korean.conll` and `srl.test.korean.conll`)
 3. Copy and paste `scripts/learn.sh` and `scripts/parse_srl_only.sh` from this repositroy to the extracted code repostiory (`srl-4.31/`)
 4. Learn `scripts/learn.sh` to train the SRL model.
-5. Learn `scripts/parse_srl_only.sh` to output the predicted output.
-6. Calculate macro F1 score between `srl-korean.out` (predicted) and `srl.test.korean.conll` (true).
+5. Learn `scripts/parse_srl_only.sh` to output the predicted output (`srl-korean.out`). 
+6. Calculate macro F1 score between `srl-korean.out` (predicted) and `srl.test.korean.conll` (true) by `$ python calculate_macrof1.py`.
 
 # Evaluation Result
 Here we used macro F1 score as an evaluation metric. The Korean has achieved the worst performance, but we note that the train size is the smallest among all these languages. 
