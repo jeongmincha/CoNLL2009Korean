@@ -27,6 +27,10 @@ Like Lee's data, our train data size is 4,096 sentences, and our evaluation data
 # Evaluation Result
 Here we used macro F1 score as an evaluation metric. The Korean has achieved the worst performance, but we note that the train size is the smallest among all these languages. 
 
-<img src="imgs/result.PNG" />
+<img src="imgs/table-result.PNG" />
 
 In the 7 languages except Korean, Japanese has the smallest train data, and English has the largest train data. Therefore, Japanese data made the worst performance while English data made the best score. If we collected more sentences on Korean corpus, we could get better performance from the fact that the train data size and the macro f1 score have a large correlation.
+
+The following graphs describe burble graphs whose x axis is the train data size and y is the macro f1 score. Specifically, the first graph's x axis is for the number of sentences in the train corpus, and the second one's x axis is for the number of tokens in the train corpus.
+
+<img style="height:300px" src="imgs/graph1.PNG" /><img style="height:300px" src="imgs/graph2.PNG" />
