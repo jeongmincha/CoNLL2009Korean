@@ -33,4 +33,11 @@ In the 7 languages except Korean, Japanese has the smallest train data, and Engl
 
 The following graphs describe burble graphs whose x axis is the train data size and y is the macro f1 score. Specifically, the first graph's x axis is for the number of sentences in the train corpus, and the second one's x axis is for the number of tokens in the train corpus.
 
-<img style="height:300px" src="imgs/graph1.PNG" /><img style="height:300px" src="imgs/graph2.PNG" />
+<p align="center">
+  <img height="400" src="imgs/graph1.PNG" />
+</p>
+
+<p align="center">
+  <img height="400" src="imgs/graph2.PNG" />
+</p>
+
